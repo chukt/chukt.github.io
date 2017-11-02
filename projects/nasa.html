@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../style.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title></title>
+</head>
+<body>
+  
+          <ul id="navigationBar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a class="active" href="../projects.html">Projects</a></li>
+        <li><a href="https://www.dropbox.com/s/nxhufsimx5vdwqh/Resume%20-%20Karen%20Chu.pdf?dl=0" target="_blank">Resume</a></li>
+      </ul>
+  
+  
+  <div class="container">
+  <p>
+   This project was also called the Ice Sheet System Model. There were several different goals to the project: one of which was to provide a simulation of the effect on sea level rise due to the melting of ice sheets. My job was to create a GUI (graphical user interface) that can be easily manipulated by the user so they could see the effect of the accumulation of snow. <br><br>
+    Snow would first start out on top and float down into bins. The user also had the option of dragging snowflakes into the bins. Periodically, the program would call the accumulate function which would use physics to calculate the compression of snow into ice along with ice melts and accounting for gravity. From there, the glacier would form and the game continues on. Eventually, a chunk of the ice sheet would break off and show the increase of sea level. The whole purpose of this particular app was to educate others of global warming and sea level rise. <br><br><br><br>
+    <b>My thoughts:</b> This was actually one the first non-school related projects I took on and it was during the very first year of my university coding career. Needless to say, I was overwhelmed. It was the first time I had to undertake a project with almost no direction besides the above requirements. They didn't ask for any specific classes (only that one function) and there was no other example I could base the project off of. I was on my own. And I can definitely say this was an intense learning experience. I wrote the program in Python (at the time, it was the only language I knew). It was slow going and very difficult at first. I spent an incredible amount of time coding it while writing up documentation to log what I found and mistakes I made. Drawing the GUI was probably the most difficult part since I didn't use Tkinter all that often. The error messages thrown because of it were almost impossible to decifer but about halfway through, I finally trudged past that obstacle and got all the components working: the snow animation, bins and the glacier. <br><br>
+    Then, I realized there was a curious little error. Whenever the snow hit the edges of the bins, it would just float there. It took me about a week or two to figure out what was wrong. Lo and behold, I realize that the way I updated the snowflake's position created a problem where the program was unable to erase it when it came in contact with the bin lines. I spent the next week or two trying to figure out how to solve the problem. I wish I could say that I managed to solve it but I didn't. I added some randomness to the snowflakes' motion but I couldn't get rid of that error by the end of the project deadline. But I logged that error and turned in what I had, removing the bin lines to remove the error. In a way, that worked and conformed to the requirements. <br><br>
+    Now that I'm done with school, I'm actually revisiting that project, since I couldn't stand what I turned in. You can find the beginnings of the project <a href="https://github.com/chukt/globalWarmingProject" target="_blank">here</a>.<br><br>
+    
+    For more information about the app, you can check out NASA's <a href="https://issm.jpl.nasa.gov/" target="_blank">website</a>.
+  </p>
+  </div>
+</body>
+</html>
