@@ -25,6 +25,22 @@ body{
 
 }
 
+#nasa{
+  padding-bottom: 80px;
+}
+
+#ai{
+  padding-bottom: 80px;
+}
+
+#uav{
+  padding-bottom: 80px;
+}
+
+#about{
+  padding-bottom: 80px
+}
+
 .intro{
   padding-top: 80px;
   text-align: center;
