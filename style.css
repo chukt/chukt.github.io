@@ -6,6 +6,20 @@ p{
   color: #C0C0C0;
 }
 
+h3{
+  color: #C0C0C0 !important;
+  text-align: center;
+}
+
+h4{
+  color: #C0C0C0 !important;
+  text-align: center;
+}
+
+ul{
+  color: #C0C0C0 !important;
+}
+
 body{
   background-color: #222 !important;
 

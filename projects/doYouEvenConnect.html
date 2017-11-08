@@ -4,12 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="../style.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <title></title>
 </head>
 <body>
   
+        <ul id="navigationBar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a class="active" href="../projects.html">Projects</a></li>
+        <li><a href="../resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+	  
+	<div class="container">
+    <h4>DoYouEvenConnect</h4>
+	  <p>
+	  <br>
+		This was an AI I created with a partner that could play Connect Four. It also could extend it to any number of connections (four, five, six, etc). The purpose of this project was to create an AI that could decide on the "best" move within 5 seconds. It does so by predicting all the possible good moves the opponent would make.<br><br>
+		In AI, minimax is a very popular choice in terms of search algorithms. For the final iteration of our AI, we chose to implement alpha-beta pruning with minimax. Minimax is the algorithm that minimizes the possible loss for a worst case scenario to maximize the minimum game. In other words, it chooses the best possible move assuming the opponent is looking to maximize their points.
+		Of course, this results in  problem of making a move within the time limit. How far in the future can the algorithm go? This was where alpha-beta pruning came in. It allowed us to go farther in the future by removing the moves that can't possibly be better than the other moves. 
+		<a href="https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning" target="_blank">Wikipedia</a> does a really good job of explaining the algorithm. <br><br><br><br>
+		<b>My thoughts:</b> Working with AI is really fun even though I think learning about the search algorithms can be a bit dry. If I were to go back, I might want to improve the heuristic of the AI. It could always be smarter! :) 
+		But overall, I don't actually have too many complaints about the actual AI. If I had enough time, I actually wish I had a chance to major in Computer Science and specialize in AI and Machine Learning. I took the AI class a bit late in my career (a quarter before I graduated) so it was a bit late to switch seeing how I was almost done with my major. Though if I get a chance to further my knowledge in AI, I definitely will!
+		(I'm actually planning on creating an app that leverages AI for a hackathon, but that's a story for another day.)
+		
+		Here's the <a href="https://github.com/chukt/studentAI" target="_blank">github</a> if anyone is interested in looking at the implementation of the AI. 
+	  </p>
+  </div>
   
 </body>
 </html>
